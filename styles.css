@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5dc; /* Beige background */
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.left-container {
+  background-color: #8b4513; /* Brown background */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 60%;
+}
+
+.right-container {
+  background-color: #8b4513; /* Brown background */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select, input, button {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #8b4513;
+}
+
+button {
+  background-color: #d2b48c; /* Light brown */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a0522d; /* Darker brown on hover */
+}
+
+h1, h2 {
+  font-size: 2em;
+}
+
+#topic {
+  font-weight: bold;
+}
+
+#wordDisplay {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+#wrongGuesses, #remainingAttempts, #score {
+  font-size: 1.2em;
+}
+
+#hangman {
+  font-size: 1.5em;
+  white-space: pre-wrap;
+  text-align: center;
+}
